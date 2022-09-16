@@ -1,4 +1,4 @@
-package com.som3a.myapplication
+package com.som3a.weatherNow
 
 import org.junit.Test
 

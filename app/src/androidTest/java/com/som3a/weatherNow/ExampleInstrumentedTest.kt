@@ -1,4 +1,4 @@
-package com.som3a.myapplication
+package com.som3a.weatherNow
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
