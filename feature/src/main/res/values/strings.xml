@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">weatherNow</string>
+    <string name="no_data_available">No Photos yet</string>
+    <string name="add_new_weather_photo">Add new Weather photo</string>
+    <string name="share_on_facebook">Share on Facebook</string>
+    <string name="share_on_tweeter">Share on Tweeter</string>
+</resources>

@@ -14,3 +14,10 @@ dependencyResolutionManagement {
 }
 rootProject.name = "weatherNow"
 include ':app'
+include ':base'
+include ':common'
+include ':domain'
+include ':data'
+include ':remote'
+include ':local'
+include ':feature'

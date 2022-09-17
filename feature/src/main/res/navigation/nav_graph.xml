@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/core_nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.som3a.feature.ui.main.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.som3a.feature.ui.details.DetailsFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_details">
+        <argument
+            android:name="uiModel"
+            android:defaultValue="null"
+            app:argType="com.som3a.feature.model.WeatherDetailsUiModel" />
+
+        <argument
+            android:name="path"
+            android:defaultValue="null"
+            app:argType="string" />
+
+        <argument
+            android:name="lat"
+            android:defaultValue="null"
+            app:argType="double" />
+
+        <argument
+            android:name="lon"
+            android:defaultValue="null"
+            app:argType="double" />
+    </fragment>
+</navigation>

@@ -1,4 +1,4 @@
-package com.som3a.weatherNow.di
+package com.som3a.weatherNow
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
